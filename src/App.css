@@ -1,32 +1,202 @@
-.App {
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.navBar a:hover{
+  background-color:#FFEDBC;
+  color: #ED4264;
+
+}
+
+.header-color{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  image-rendering: pixelated;
+}
+
+.landing-grid{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.avatar-img{
+  height: 250px;
+  padding-top: 5em;
+  transition: height 2s;
+
+}
+
+.avatar-img:hover{
+
+  height:400px;
+}
+
+
+.banner-text{
+  background-color: white;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
+  color:#ED4264;
+}
+
+.banner-text hr{
+  border-top: 5px dotted #ED4264;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p{
+  color: #ED4264;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.social-links i{
+  color: #ED4264;
+  font-size: 5em;
+  padding: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.social-links i:hover{
+  color: #FFEDBC;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.landing-page{
+  animation: 1s ease-in-out 0s 1 fadeIn;
+}
+
+
+.projects-grid{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+/* contact page css */
+.contact-body{
+  margin: auto;
+  background: white;
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 2em;
+
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 100%;
+  background: white;
+  color: black;
+  border: 2px solid #ED4264;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2, .contact-grid p{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.contact-grid hr{
+  border-top: 1px solid black;
+  width: 70%;
+  margin: auto;
+}
+
+
+.contact-list i{
+  font-size: 26px;
+  padding-right: 3rem;
+}
+
+.contact-list{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+
+
+
+/* Resume Page CSS */
+
+.resume-right-col{
+  background: #27221f;
   color: white;
+  padding: 2em;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+/* About Me Page CSS */
+
+.aboutme-body{
+  margin: auto;
+  background:white;
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 2em;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutme-grid{
+  text-align: center;
+  justify-content: center;
+  flex-wrap: center;
+  height:100%;
+  width:80%;
+  background: white;
+  color:black;
+  border: 2px solid #ED4264;
+  margin-bottom: 2px;
+}
+
+.aboutme-grid h2, .aboutme p{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.fade-ani{
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 2s ease-in-out 0s 1 fadeIn;
+
 }
