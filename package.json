@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kdiaz489.github.io/portfolio",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -9,9 +10,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
-  "homepage": {
-    "homepage": "http://kdiaz489.github.io/myportfolio"
-  },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
