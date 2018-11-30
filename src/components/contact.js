@@ -7,8 +7,8 @@ class Contact extends Component{
     return(
 
       <div className="contact-body" >
-        <Grid className="contact-grid">
-          <Cell col={6} className="fade-ani">
+        <Grid className="contact-grid fade-content">
+          <Cell col={6}>
             <h2>Karen Stefany Diaz</h2>
             <img src={Avatar2}
             alt="avatar"
@@ -21,7 +21,7 @@ class Contact extends Component{
             </p>
 
           </Cell>
-          <Cell col={6} className="fade-ani">
+          <Cell col={6} >
             <h2>Contact Me</h2>
 
             <hr />
@@ -29,21 +29,21 @@ class Contact extends Component{
               <List>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Roboto'}}>
+                  <ListItemContent className="contact-item">
                   <i className="fa fa-phone" aria-hidden="true" />
                    (909) 489-5481
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Roboto'}}>
+                  <ListItemContent className="contact-item">
                   <i className="fa fa-envelope" aria-hidden="true" />
                    kstefdiaz@gmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Roboto'}}>
+                  <ListItemContent className="contact-item">
                   <i className="fa fa-linkedin" aria-hidden="true" />
                    linkedin.com/in/kstefdiaz
                   </ListItemContent>

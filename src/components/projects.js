@@ -11,8 +11,8 @@ class Projects extends Component{
 
     if(this.state.activeTab === 0){
       return(
-      <div className="projects-grid fade-ani">
-        <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+      <div className="projects-grid fade-content">
+        <Card shadow={5} style={{minWidth:'450', margin: 'auto', marginBottom: '30px'}} >
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
             React Project #1 </CardTitle>
             <CardText>
@@ -35,7 +35,7 @@ class Projects extends Component{
         </Card>
 
 
-        <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+        <Card shadow={5} style={{minWidth:'450', margin: 'auto', marginBottom: '30px'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
             React Project #1 </CardTitle>
             <CardText>
@@ -57,7 +57,7 @@ class Projects extends Component{
 
         </Card>
 
-        <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+        <Card shadow={5} style={{minWidth:'450', margin: 'auto', marginBottom: '30px'}} >
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
             React Project #1 </CardTitle>
             <CardText>

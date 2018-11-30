@@ -9,8 +9,8 @@ class Resume extends Component{
   render(){
     return(
       <div>
-        <Grid>
-          <Cell col={4} className="fade-ani">
+        <Grid className="fade-content">
+          <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img src={Avatar} style={{height:'200px'}} alt="avatar"/>
             </div>
@@ -37,7 +37,7 @@ class Resume extends Component{
           </Cell>
 
 
-          <Cell className="resume-right-col fade-ani" col={8}>
+          <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
             <Education startYear={2009}
             endYear={2013}

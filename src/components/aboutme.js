@@ -8,9 +8,9 @@ class About extends Component{
       <div>
 
         <div className="aboutme-body">
-        <Grid className="aboutme-grid">
+        <Grid className="aboutme-grid fade-content">
 
-          <Cell col={12} className="fade-ani">
+          <Cell col={12} >
             <h2>About Me</h2>
             <p style= {{width: '70%', margin: 'auto', paddingTop: '1em'}}>
             My name is Karen Stefany Diaz. I am a Salvadoran-American woman that loves programming,
