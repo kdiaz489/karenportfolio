@@ -219,7 +219,10 @@
   }
 }
 
+.landing-page, .fade-content{
 
+  animation: 1.5s ease-in-out 0s 1 fadeIn;
+}
 
   /* MOBILE SCREENS */
   @media only screen and (max-width:480px){
