@@ -265,4 +265,13 @@
       font-size: 12px;
     }
 
+    .mdl-grid.contact-grid, .mdl-grid.aboutme-grid{
+      margin-top: 30px;
+    }
+
+    .mdl-tabs{
+      margin-top: 1%;
+      margin-left: 10%;
+    }
+
   }
