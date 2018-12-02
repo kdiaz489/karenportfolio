@@ -1,5 +1,5 @@
 
-
+/* NAV BAR CSS */
 
 .navBar a:hover{
   background-color:#FFEDBC;
@@ -13,6 +13,8 @@
   background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   image-rendering: pixelated;
 }
+
+/* LANDING PAGE CSS */
 
 .landing-grid{
 
@@ -107,15 +109,20 @@
 
 
 
-
+/* PROJECTS CSS */
 .projects-grid{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.project1{
+  background: url(./img/kigt-sample.png) center / cover;
+  
 
 }
 
-/* contact page css */
+/* CONTACT PAGE CSS */
 .contact-body{
   margin: auto;
   background: white;
@@ -210,6 +217,7 @@
 
 }
 
+/* FADING ANIMATION */
 @keyframes fadeIn{
   0%{
     opacity: 0;
@@ -223,6 +231,8 @@
 
   animation: 1.5s ease-in-out 0s 1 fadeIn;
 }
+
+
 
   /* MOBILE SCREENS */
   @media only screen and (max-width:480px){

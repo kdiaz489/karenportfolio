@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Tabs, Tab, Grid, Cell, Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import Project1 from '../img/kigt-sample.png';
 
 class Projects extends Component{
   constructor(props){
@@ -58,8 +59,8 @@ class Projects extends Component{
         </Card>
 
         <Card shadow={5} style={{minWidth:'450', margin: 'auto', marginBottom: '30px'}} >
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
-            React Project #1 </CardTitle>
+          <CardTitle style={{color: '#ED4264', height: '176px'}} className="project1">
+            KIGT UI </CardTitle>
             <CardText>
                 Lorem ipsum dolor amet cred raw denim snackwave artisan green juice
                 celiac. Kogi crucifix chillwave blue bottle, kale chips meh umami
@@ -68,13 +69,11 @@ class Projects extends Component{
 
             </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
+                <Button colored style={{color:'#ED4264'}}>GitHub</Button>
+                <Button colored style={{color:'#ED4264'}}>CodePen</Button>
+                <Button colored style={{color:'#ED4264'}}>LiveDemo</Button>
               </CardActions>
-              <CardMenu style={{color:'#fff'}}>
-                <IconButton name="share"/>
-              </CardMenu>
+
 
 
         </Card>
