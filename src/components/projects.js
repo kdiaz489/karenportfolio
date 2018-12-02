@@ -13,6 +13,29 @@ class Projects extends Component{
     if(this.state.activeTab === 0){
       return(
       <div className="projects-grid fade-content">
+
+        <Card shadow={5} style={{minWidth:'450', margin: 'auto', marginBottom: '30px'}} >
+          <CardTitle style={{color: '#494445', height: '176px'}} className="project1">
+            KIGT UI </CardTitle>
+            <CardText>
+                Lorem ipsum dolor amet cred raw denim snackwave artisan green juice
+                celiac. Kogi crucifix chillwave blue bottle, kale chips meh umami
+                portland air plant cray synth viral prism aesthetic tofu. Blue bottle
+                asymmetrical mlkshk aesthetic man bun mixtape chartreuse XOXO vegan bespoke cornhole.
+
+            </CardText>
+              <CardActions border>
+                <Button colored style={{color:'#ED4264'}}>GitHub</Button>
+                <Button colored style={{color:'#ED4264'}}>CodePen</Button>
+                <Button colored style={{color:'#ED4264'}}>LiveDemo</Button>
+              </CardActions>
+
+
+
+        </Card>
+
+
+
         <Card shadow={5} style={{minWidth:'450', margin: 'auto', marginBottom: '30px'}} >
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
             React Project #1 </CardTitle>
@@ -54,26 +77,6 @@ class Projects extends Component{
               <CardMenu style={{color:'#fff'}}>
                 <IconButton name="share"/>
               </CardMenu>
-
-
-        </Card>
-
-        <Card shadow={5} style={{minWidth:'450', margin: 'auto', marginBottom: '30px'}} >
-          <CardTitle style={{color: '#ED4264', height: '176px'}} className="project1">
-            KIGT UI </CardTitle>
-            <CardText>
-                Lorem ipsum dolor amet cred raw denim snackwave artisan green juice
-                celiac. Kogi crucifix chillwave blue bottle, kale chips meh umami
-                portland air plant cray synth viral prism aesthetic tofu. Blue bottle
-                asymmetrical mlkshk aesthetic man bun mixtape chartreuse XOXO vegan bespoke cornhole.
-
-            </CardText>
-              <CardActions border>
-                <Button colored style={{color:'#ED4264'}}>GitHub</Button>
-                <Button colored style={{color:'#ED4264'}}>CodePen</Button>
-                <Button colored style={{color:'#ED4264'}}>LiveDemo</Button>
-              </CardActions>
-
 
 
         </Card>
